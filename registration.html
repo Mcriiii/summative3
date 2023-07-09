@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Registration </title>
+		<link rel="stylesheet" href="external_registration.css">	
+		<script>
+			function submitToPage(){
+				window.location="login.html";
+			}
+		</script>
+	</head>
+	
+	<body>
+		<div class ="container"> 
+			<header> Register/Sign Up Here </header><hr><br>
+			<form class="form">
+				<div class="input_box">
+					<label for="fn"> First Name: </label>
+					<input id="fn" type="text" placeholder="Enter first name.">
+					
+					<label for="ln"> Last Name: </label>
+					<input id="ln" type="text" placeholder="Enter last name.">
+					<br><br>
+					
+				<div>
+					<label for="email"> Email: </label>
+					<input id="email" type="text" placeholder="Enter email address.";>
+					<br><br>
+					<label for="phone"> Phone No.: </label>
+					<input id="phone" type="text" placeholder="Enter number.";>
+					<br><br>
+					<label for="pass"> Password: </label>
+					<input id="pass" type="password" placeholder="Create a password.";>
+					<br><br>
+					<label for="cpass"> Confirm Passowrd: </label>
+					<input id="cpass" type="password" placeholder="Confirm password.";>
+				</div>
+				<br>
+				<div>
+					<div class="button">
+					<form>
+						<input type="button" onclick="submitToPage();" value="Submit"/>
+					</form>
+					</div>
+				</div>
+	</body>
+</html>

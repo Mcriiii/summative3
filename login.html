@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Login </title>
+		<link rel="stylesheet" href="external_registration.css">	
+		<script type="text/javascript">
+			function submitToPage(){
+				window.location="home.html";
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class ="container"> 
+			<header> Login </header><hr><br>
+			<form class="form">
+				<div>
+					<br>
+					<label for="email"> Email: </label>
+					<input id="email" type="text" placeholder="Enter email address.";>
+					<br><br>
+					<label for="phone"> Phone No.: </label>
+					<input id="phone" type="text" placeholder="Enter number.";>
+					<br><br>
+					<label for="pass"> Password: </label>
+					<input id="pass" type="password" placeholder="Create a password.";>
+					<br><br><br>
+					<p align="center"><u> Welcome </u><p>
+				</div>
+				<br>
+				<div>
+					<div class="button">
+					<form>
+						<input type="button" onclick="submitToPage();" value="Login"/>
+					</form>
+					</div>
+				</div>
+	</body>
+</html>

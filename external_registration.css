@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: Verdana, sans-serif;
+}
+header{
+	text-align:center;
+	font-weight: bold;
+	padding:5px;
+}
+
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	background-color: #728FCE;
+}
+.container{
+	position:relative;
+	max-width:700px;
+	width: 100%;
+	background-color: white;
+	padding:25px;
+	border-radius: 8px;
+	box-shadow: gray;
+	height: 300px;
+}
+
+.right{
+float:right;
+}
+
+.input_box{
+	position: relative;
+	height:50px;
+	width: 100%;
+	outline:none;
+	border:1px solid white;
+	border-radius: 6px;
+	padding: 0 15px;
+	font-size: 1rem;
+	color: gray;
+}
+#email{
+	width: 90%;
+}
+#address{
+	width: 80%;
+}
+.button{
+	float:right;
+}
